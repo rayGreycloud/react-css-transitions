@@ -11,3 +11,6 @@ set transition options
 ###Step 3###
 
 add css classes for animation
+
+###Transition variations###
+1. Rotate on enter with transform
