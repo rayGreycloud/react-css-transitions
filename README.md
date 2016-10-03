@@ -14,3 +14,4 @@ add css classes for animation
 
 ###Transition variations###
 1. Rotate on enter with transform
+2. Alter opacity on enter
