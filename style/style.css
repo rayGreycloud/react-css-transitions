@@ -12,3 +12,24 @@ li {
   align-items: center;
   position: relative;
 }
+
+/* starting state of animation */
+.fade-enter {
+  right: 100px;
+
+}
+
+/* ending state of animation */
+.fade-enter-active {
+  right: 0px;
+  transition: .5s ease-in all;
+}
+
+.fade-leave {
+  right: 0px;
+}
+
+.fade-leave-active {
+  right: -100px;
+  transition: .5s ease-out all;
+}
