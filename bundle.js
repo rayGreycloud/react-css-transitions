@@ -21518,10 +21518,6 @@
 
 	var _faker2 = _interopRequireDefault(_faker);
 
-	var _reactAddonsCssTransitionGroup = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"react-addons-css-transition-group\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-
-	var _reactAddonsCssTransitionGroup2 = _interopRequireDefault(_reactAddonsCssTransitionGroup);
-
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
@@ -21576,11 +21572,6 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      var transitionOptions = {
-	        transitionName: "fade",
-	        transitionEnterTimeout: 500,
-	        transitionLeaveTimeout: 500
-	      };
 
 	      return _react2.default.createElement(
 	        'div',
@@ -21593,11 +21584,7 @@
 	        _react2.default.createElement(
 	          'ul',
 	          { className: 'list-group' },
-	          _react2.default.createElement(
-	            _reactAddonsCssTransitionGroup2.default,
-	            transitionOptions,
-	            this.renderQuotes()
-	          )
+	          this.renderQuotes()
 	        )
 	      );
 	    }
