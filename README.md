@@ -10,4 +10,4 @@ set transition options
 
 ###Step 3###
 
-...
+add css classes for animation
